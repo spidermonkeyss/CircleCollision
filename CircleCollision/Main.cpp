@@ -5,6 +5,7 @@
 #include "Collision/Collision.h"
 
 #include <iostream>
+
 #include <chrono>
 
 uint64_t GetTime()
@@ -37,9 +38,7 @@ int main()
 	bool fully_resolve_collisions_this_frame = false;
 	CollisionType collisionType = CollisionType::SpacePartition;
 
-	/*THIS IS THE IMPORTANT LINE*/
 	CollisionResolutionInfo resolutionInfo = DoCollisions(&circleColliders, collisionType, fully_resolve_collisions_this_frame);
-	/*THIS LINE*/
 
 	uint64_t endTime = GetTime();
 	uint64_t totalTime = endTime - startTime;

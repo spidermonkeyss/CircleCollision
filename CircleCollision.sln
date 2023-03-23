@@ -1,31 +1,20 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.4.33122.133
-MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CircleCollision", "CircleCollision\CircleCollision.vcxproj", "{09A83EA2-C755-4DC0-900D-4D93E777F31B}"
+# Visual Studio Version 16
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CircleCollision", "CircleCollision.vcxproj", "{63302E2E-CFBB-9BF2-D8CC-1EE744D7F7F2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
-		Debug|x86 = Debug|x86
 		Release|x64 = Release|x64
-		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{09A83EA2-C755-4DC0-900D-4D93E777F31B}.Debug|x64.ActiveCfg = Debug|x64
-		{09A83EA2-C755-4DC0-900D-4D93E777F31B}.Debug|x64.Build.0 = Debug|x64
-		{09A83EA2-C755-4DC0-900D-4D93E777F31B}.Debug|x86.ActiveCfg = Debug|Win32
-		{09A83EA2-C755-4DC0-900D-4D93E777F31B}.Debug|x86.Build.0 = Debug|Win32
-		{09A83EA2-C755-4DC0-900D-4D93E777F31B}.Release|x64.ActiveCfg = Release|x64
-		{09A83EA2-C755-4DC0-900D-4D93E777F31B}.Release|x64.Build.0 = Release|x64
-		{09A83EA2-C755-4DC0-900D-4D93E777F31B}.Release|x86.ActiveCfg = Release|Win32
-		{09A83EA2-C755-4DC0-900D-4D93E777F31B}.Release|x86.Build.0 = Release|Win32
+		{63302E2E-CFBB-9BF2-D8CC-1EE744D7F7F2}.Debug|x64.ActiveCfg = Debug|x64
+		{63302E2E-CFBB-9BF2-D8CC-1EE744D7F7F2}.Debug|x64.Build.0 = Debug|x64
+		{63302E2E-CFBB-9BF2-D8CC-1EE744D7F7F2}.Release|x64.ActiveCfg = Release|x64
+		{63302E2E-CFBB-9BF2-D8CC-1EE744D7F7F2}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {A00DAEA4-55DD-4E0E-B61C-FDCB5E2B356B}
 	EndGlobalSection
 EndGlobal
